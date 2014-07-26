@@ -13,3 +13,5 @@ gcc keys.c -lncurses
 ```
 
 All ncurses apps need to be linked with the ncurses header with `-lncurses`
+
+Also any apps in the panel folder require `-lpanel -lncurses` and any apps in the menu folder require `-lmenu -lncurses`
